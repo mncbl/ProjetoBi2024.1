@@ -25,10 +25,8 @@ CREATE TABLE IF NOT EXISTS public.compra (
     pk_compra SERIAL PRIMARY KEY,
     fk_comprador INTEGER NOT NULL,
     fk_item INTEGER NOT NULL,
-    fk_setor INTEGER NOT NULL,
     data_compra DATE NOT NULL,
     qtd_item INTEGER NOT NULL,
     FOREIGN KEY (fk_comprador) REFERENCES comprador(id_comprador),
-    FOREIGN KEY (fk_item) REFERENCES item(id_item),
-    FOREIGN KEY (fk_setor) REFERENCES setor(id_setor)
+    FOREIGN KEY (fk_item) REFERENCES item(id_item)
 );
