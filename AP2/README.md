@@ -2,7 +2,7 @@
 
 ## Como estruturar as base de dados no PostgreSQL
 
-1. Abrir PostgreSQL (pgAdmin)
+**1. Abrir PostgreSQL (pgAdmin)**
 
 **2. Criar st_allmart**
   - Criar Database com nome 'st_allmart'
@@ -18,6 +18,6 @@
 
 ## Como popular a tabela Fato (fato_compra)
 
-1. Abrir o Pentaho (spoon.bat)
+**1. Abrir o Pentaho (spoon.bat)**
 
-**2. Rodar arquivo Job_AP2**
+**2. Rodar arquivo Job_AP2.kjb**
