@@ -8,6 +8,7 @@
   - Criar Database com nome 'st_allmart'
   - Rodar arquivo script_cria_st_allmart.sql
   - Rodar arquivo script_insere_dados_st_allmart.sql
+  - Rodar arquivo script_insere_4000_dados.sql
 
 **3. Criar dw_allmart**
   - Criar Database com nome 'dw_allmart'
